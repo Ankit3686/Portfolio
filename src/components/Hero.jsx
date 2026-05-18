@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import heroImg from "./hero1.jpg";
 
 const roles = [
     "Full Stack Developer",
@@ -45,7 +46,7 @@ function Hero() {
 
     return (
         <section className="hero" id="home">
-            <img src="/hero1.jpg" alt="profile" />
+            <img src={heroImg} alt="profile" />
             <h1>Hi, I'm Ankit</h1>
 
             <p>
