@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import heroImg from "./hero1.jpg";
+import Resumepdf from "./Ankit fullstack.pdf";
 
 const roles = [
     "Full Stack Developer",
@@ -56,7 +57,9 @@ function Hero() {
 
             <div className="hero-buttons">
                 <a href="#contact" className="btn">Hire Me</a>
-                <a href="/resume.pdf" className="btn">Resume</a>
+                <a href={Resumepdf} className="btn" target="_blank" rel="noreferrer">
+                    Resume
+                </a>
             </div>
         </section>
     );
