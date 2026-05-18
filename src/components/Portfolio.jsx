@@ -1,47 +1,53 @@
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import ministoreImg from "../Ministore1.png";
+import mlImg from "../ml project pic.png";
+import todoImg from "../Todo2.png";
+import instaImg from "../instagram-ui1.png";
+import financeImg from "../finance.png";
+import typingImg from "../typinggame.png";
 
 const projects = [
     {
         title: "Ministore",
         desc: "E-commerce Website",
-        img: "/Ministore1.png",
+        img: ministoreImg,
         live: "https://ankit3686.github.io/Ministore/",
         github: "https://github.com/Ankit3686/Ministore"
     },
     {
         title: "Deepfake Detection",
         desc: "ML Model Project",
-        img: "/ml project pic.png",
+        img: mlImg,
         live: "https://huggingface.co/spaces/Ankit22102001/Deepfake_Detection",
         github: "https://github.com/Ankit3686/Deepfake-Detection-System"
     },
     {
         title: "Todo List",
         desc: "React Task Manager",
-        img: "/Todo2.png",
+        img: todoImg,
         live: "https://ankit3686.github.io/To-Do-List/",
         github: "https://github.com/Ankit3686/To-Do-List"
     },
     {
         title: "Instagram-UI",
         desc: "React Instagram clone",
-        img: "/instagram-ui1.png",
+        img: instaImg,
         live: "https://ankit3686.github.io/Instagram_UI/",
         github: "https://github.com/Ankit3686/Instagram_UI"
     },
     {
         title: "Finance Tracker",
         desc: "React Finance App",
-        img: "/finance.png",
+        img: financeImg,
         live: "https://ankit3686.github.io/Finance-Tracker/",
         github: "https://github.com/Ankit3686/Finance-Tracker"
     },
     {
         title: "Typing Speed Tester",
         desc: "React Typing App",
-        img: "/typinggame.png",
+        img: typingImg,
         live: "https://ankit3686.github.io/Typing-Game/",
         github: "https://github.com/Ankit3686/Typing-Game"
     }
