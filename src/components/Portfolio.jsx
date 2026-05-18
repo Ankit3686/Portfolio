@@ -17,6 +17,13 @@ const projects = [
         github: "https://github.com/Ankit3686/Ministore"
     },
     {
+        title: "Instagram-UI",
+        desc: "React Instagram clone",
+        img: instaImg,
+        live: "https://ankit3686.github.io/Instagram_UI/",
+        github: "https://github.com/Ankit3686/Instagram_UI"
+    },
+    {
         title: "Deepfake Detection",
         desc: "ML Model Project",
         img: mlImg,
@@ -29,13 +36,6 @@ const projects = [
         img: todoImg,
         live: "https://ankit3686.github.io/To-Do-List/",
         github: "https://github.com/Ankit3686/To-Do-List"
-    },
-    {
-        title: "Instagram-UI",
-        desc: "React Instagram clone",
-        img: instaImg,
-        live: "https://ankit3686.github.io/Instagram_UI/",
-        github: "https://github.com/Ankit3686/Instagram_UI"
     },
     {
         title: "Finance Tracker",
