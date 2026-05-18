@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import heroImg from "./hero1.jpg";
 
 function About() {
 
@@ -43,7 +44,7 @@ function About() {
 
                 {/* IMAGE TOP */}
                 <div className="about-img" data-aos="zoom-in">
-                    <img src="/hero1.jpg" alt="profile" />
+                    <img src={heroImg} alt="profile" />
                 </div>
 
                 {/* CONTENT BELOW */}
@@ -75,7 +76,7 @@ function About() {
                     {/* COUNTERS */}
                     <div className="counters">
                         <div className="counter-box" data-aos="fade-up">
-                            <h3 className="counter" data-target="5">0</h3>
+                            <h3 className="counter" data-target="6">0</h3>
                             <p>Projects</p>
                         </div>
 
