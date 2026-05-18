@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.5cb9ee5d.css",
-    "main.js": "/Portfolio/static/js/main.045744d6.js",
+    "main.js": "/Portfolio/static/js/main.e2b7311b.js",
     "static/media/instagram-ui1.png": "/Portfolio/static/media/instagram-ui1.b513c3d89342b8dfa96c.png",
     "static/media/finance.png": "/Portfolio/static/media/finance.bfe7a20b8dbb74dcd5d7.png",
     "static/media/ml project pic.png": "/Portfolio/static/media/ml project pic.eff4825771459265e99f.png",
@@ -9,12 +9,13 @@
     "static/media/Ministore1.png": "/Portfolio/static/media/Ministore1.62e5f1c59ebb84957c56.png",
     "static/media/Todo2.png": "/Portfolio/static/media/Todo2.6b42fd281552bcf09f28.png",
     "static/media/hero1.jpg": "/Portfolio/static/media/hero1.7bf2151459a8a8a6e476.jpg",
+    "static/media/Ankit fullstack.pdf": "/Portfolio/static/media/Ankit fullstack.6f638ef99d02f87f15c0.pdf",
     "index.html": "/Portfolio/index.html",
     "main.5cb9ee5d.css.map": "/Portfolio/static/css/main.5cb9ee5d.css.map",
-    "main.045744d6.js.map": "/Portfolio/static/js/main.045744d6.js.map"
+    "main.e2b7311b.js.map": "/Portfolio/static/js/main.e2b7311b.js.map"
   },
   "entrypoints": [
     "static/css/main.5cb9ee5d.css",
-    "static/js/main.045744d6.js"
+    "static/js/main.e2b7311b.js"
   ]
 }
